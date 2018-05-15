@@ -436,7 +436,7 @@ def _get_canonical_name(hostname):
         return None
     if canonical_name != hostname:
         log.debug('%s has canonical name %s', hostname, canonical_name)
-        return canonical_name
+        return hostname
     return None
 
 
